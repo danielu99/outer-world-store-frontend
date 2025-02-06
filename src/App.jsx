@@ -1,15 +1,8 @@
-// src/App.jsx
 import React from "react";
-import GlobalStyles from "./styles/GlobalStyles";
-import LoginPage from "./components/LoginPage";
+import MainPage from "./components/MainPage";
 
 function App() {
-  return (
-    <>
-      <GlobalStyles />
-      <LoginPage />
-    </>
-  );
+  return <MainPage />;
 }
 
 export default App;
