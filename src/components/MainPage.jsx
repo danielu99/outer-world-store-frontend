@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import BrandShowcase from "./BrandShowcase";
+import NavBar from "./NavBar";
 
 // Keyframes for animated stars background
 const moveStars = keyframes`
@@ -107,6 +108,7 @@ const Footer = styled.footer`
 const MainPage = () => {
   return (
     <MainContainer>
+      <NavBar />
       {/* Hero Section with Animated Space Background */}
       <Hero>
         <HeroText>
@@ -114,9 +116,9 @@ const MainPage = () => {
           <p>¡Juguetes, figuras y coleccionables de todos los universos!</p>
           <ShopButton>Hacer pedido</ShopButton>
         </HeroText>
-        <BrandShowcase/>
+        <BrandShowcase />
       </Hero>
-      
+
       {/* Featured Products */}
       <Section>
         <h2>Featured Products</h2>

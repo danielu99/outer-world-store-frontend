@@ -48,7 +48,7 @@ const LogoWrapper = styled.div`
 const LogoContainer = styled.div`
   display: flex;
   gap: 40px;
-  animation: ${scroll} 10s linear infinite;
+  animation: ${scroll} 20s linear infinite;
   will-change: transform;
   transform: translateX(100%); /* Start off-screen */
   min-width: 100%; /* Ensure the container's width is at least 100% of the wrapper */
