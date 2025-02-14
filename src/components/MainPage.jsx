@@ -118,30 +118,9 @@ const MainPage = () => {
         </HeroText>
         <BrandShowcase />
       </Hero>
-
-      {/* Featured Products */}
-      <Section>
-        <h2>Featured Products</h2>
-        <Grid>
-          <Card>🚀 Space Robot</Card>
-          <Card>🦖 Dino Figure</Card>
-          <Card>🎮 Retro Console</Card>
-        </Grid>
-      </Section>
-
-      {/* Categories */}
-      <Section>
-        <h2>Shop by Category</h2>
-        <Grid>
-          <Card>Action Figures</Card>
-          <Card>Board Games</Card>
-          <Card>Plush Toys</Card>
-        </Grid>
-      </Section>
-
       {/* Footer */}
       <Footer>
-        <p>© 2025 Outer World Store. All rights reserved.</p>
+        <p>© 2025 Outer World Store. Todos los derechos reservados.</p>
       </Footer>
     </MainContainer>
   );
